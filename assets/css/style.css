@@ -73,7 +73,8 @@ body {
     background-color: #61dafb;
     position: relative;
   }
-  .section7 .slider{
+
+  .section7 .slider {
     height: 15rem;
     color: #61dafb;
     background-color: #282c34;
@@ -91,7 +92,7 @@ body {
   }
 
   /* footer */
-  .footer{
+  .footer {
     height: 15rem;
     color: #282c34;
     background-color: #61dafb;
@@ -99,6 +100,7 @@ body {
 
 
 }
+
 @media screen and (min-width: 576px) {
   /* Header */
   .my-header {
@@ -162,7 +164,8 @@ body {
     background-color: #61dafb;
     position: relative;
   }
-  .section7 .slider{
+
+  .section7 .slider {
     height: 15rem;
     color: #61dafb;
     background-color: #282c34;
@@ -180,8 +183,108 @@ body {
   }
 
   /* footer */
-  .footer{
+  .footer {
     height: 15rem;
+    color: #282c34;
+    background-color: #61dafb;
+  }
+
+
+}
+
+@media screen and (min-width: 992px) {
+  /* Header */
+  .my-header {
+    height: auto;
+    background-color: #282c34;
+    color: #61dafb;
+  }
+
+  .my-nav {
+    height: 8rem;
+    background-color: #61dafb;
+    color: #282c34;
+  }
+
+  /* section1 - description */
+  .section1 {
+    height: calc(100vh - 8rem);
+    background-color: #282c34;
+    color: #61dafb;
+    border-bottom: 3px solid #61dafb;
+  }
+
+  /******************************************************************************/
+  .mobile-icon-hotelSearch{
+    height: 100vh;
+  }
+  /***********************************************/
+  /* section2 - icons */
+  .section2 {
+    height: auto;
+    background-color: #61dafb;
+    color: #282c34;
+  }
+
+  /* section3 - mobile picture */
+  .section3 {
+    height: auto;
+    background-color: #282c34;
+    color: #61dafb;
+  }
+
+  /* section4 - search hotels */
+  .section4 {
+    height: auto;
+    background-color: #282c34;
+    color: #61dafb;
+    order: -1;
+  }
+
+  /******************************************************************************/
+  /* section5 - app download */
+  .section5 {
+    height: 50vh;
+    background-color: #61dafb;
+    color: #282c34;
+    border-top: 3px solid #282c34;
+  }
+
+  /* section6 - amadegi */
+  .section6 {
+    height: 50vh;
+    color: #61dafb;
+    background-color: #282c34;
+  }
+
+  /* section7 - ide */
+  .section7 {
+    height: 23rem;
+    color: #282c34;
+    background-color: #61dafb;
+    position: relative;
+  }
+
+  .section7 .slider {
+    height: 13rem;
+    color: #61dafb;
+    background-color: #282c34;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  /* section8 - email */
+  .section8 {
+    height: 10rem;
+    color: #61dafb;
+    background-color: #282c34;
+  }
+
+  /* footer */
+  .footer {
+    height: 12rem;
     color: #282c34;
     background-color: #61dafb;
   }
