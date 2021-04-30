@@ -8,20 +8,50 @@ body {
   font-family: Shabnam, sans-serif;
 }
 
+.text-right {
+  text-align: right !important
+}
+
+.text-teal {
+  color: #03A17B;
+}
+
 @media screen and (max-width: 576px) {
   /* Header */
   .my-header {
-    height: 30rem;
-    padding: 1rem;
-    background-color: #282c34;
-    color: #61dafb;
+    margin-top: 80px;
+    min-height: 15rem;
+    overflow: hidden;
   }
 
   .my-nav {
-    height: 5rem;
-    background-color: #61dafb;
-    color: #282c34;
+    background-color: #e0e0e0;
     border-radius: 4px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .navbar-toggler {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .navbar-brand {
+    z-index: 1
+  }
+
+  .logo-container {
+    position: relative;
+  }
+
+  .logo-bg {
+    width: 25rem;
+    position: absolute;
+    top: 0px;
+    right: -110px;
   }
 
   /* section1 - description */
