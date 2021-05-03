@@ -97,9 +97,14 @@ body {
 
   /* section3 - mobile picture */
   .section3 {
-    height: 100vh;
-    background-color: #61dafb;
-    color: #282c34;
+    /*height: calc(100vh - 80px);*/
+    /*height: 600px;                                        !*عوضش کن*!*/
+    /*background-color: #61dafb;*/
+    /*color: #282c34;*/
+  }
+
+  .section3 img.mobile {
+    height: calc(100vh - 100px);
   }
 
   /* section4 - search hotels */
