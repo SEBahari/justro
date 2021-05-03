@@ -109,16 +109,32 @@ body {
 
   /* section4 - search hotels */
   .section4 {
-    height: 20rem;
-    background-color: #282c34;
-    color: #61dafb;
+    /*height: 20rem;*/
+    /*background-color: #282c34;*/
+    /*color: #61dafb;*/
   }
 
   /* section5 - app download */
   .section5 {
-    height: 100vh;
-    background-color: #61dafb;
-    color: #282c34;
+    /*height: 100vh;*/
+    /*background-color: #61dafb;*/
+    /*color: #282c34;*/
+  }
+  .downloadSvg{
+    width: 35%;
+  }
+
+  .section5 input {
+    outline: none;
+  }
+  .section5 .sms-download{
+    background-color: #F1744A;
+    font-size: 1.5rem;
+  }
+  .section5 .direct-download{
+    background-color: #01CE9F;
+    width: 170px;
+    padding: 12px;
   }
 
   /* section6 - amadegi */
