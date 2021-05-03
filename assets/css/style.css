@@ -139,9 +139,11 @@ body {
 
   /* section6 - amadegi */
   .section6 {
-    height: 20rem;
-    color: #61dafb;
-    background-color: #282c34;
+    /*height: 20rem;*/
+  }
+  .section6 button{
+    background-color: #F1744A;
+    color: white;
   }
 
   /* section7 - ide */
