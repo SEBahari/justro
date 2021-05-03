@@ -16,6 +16,13 @@ body {
   color: #03A17B;
 }
 
+.overflow-x-scroll{
+  overflow-x: scroll;
+}
+.overflow-y-hidden{
+  overflow-y: hidden;
+}
+
 @media screen and (max-width: 576px) {
   /* Header */
   .my-header {
@@ -73,8 +80,19 @@ body {
   /* section2 - icons */
   .section2 {
     height: 7rem;
-    background-color: #282c34;
-    color: #61dafb;
+    /*background-color: #282c34;*/
+    /*color: #61dafb;*/
+  }
+  .section2 .icon-container {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #03A17B;
+    border-radius: 50%;
+  }
+  .section2 .icon-container svg {
+    /*height: 100%;*/
+    width: 70%;
+    fill: #03A17B;
   }
 
   /* section3 - mobile picture */
