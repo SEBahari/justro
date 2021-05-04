@@ -261,6 +261,25 @@ body {
     left: 0;
   }
 
+  /* section1 - description */
+  .section1 {
+    min-height: 80vh;
+    padding-bottom: 8rem;
+  }
+
+  .section1 .divider{
+    border: 2px solid #03A17B;
+  }
+
+  .section1 .img{
+    width: 20rem;
+  }
+
+  .section1 .bg-wave{
+    left: 0;
+    bottom: 0;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
