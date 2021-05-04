@@ -280,6 +280,22 @@ body {
     bottom: 0;
   }
 
+  /* section2 - icons */
+  .section2 {
+    height: 10rem;
+  }
+
+  .section2 .icon-container {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #03A17B;
+    border-radius: 50%;
+  }
+  .section2 .icon-container svg {
+    width: 70%;
+    fill: #03A17B;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
