@@ -234,6 +234,7 @@ body {
     left: 0;
     z-index: 100;
   }
+
   .navbar-toggler {
     height: 3.5rem;
     width: 3.5rem;
@@ -267,15 +268,15 @@ body {
     padding-bottom: 8rem;
   }
 
-  .section1 .divider{
+  .section1 .divider {
     border: 2px solid #03A17B;
   }
 
-  .section1 .img{
+  .section1 .img {
     width: 20rem;
   }
 
-  .section1 .bg-wave{
+  .section1 .bg-wave {
     left: 0;
     bottom: 0;
   }
@@ -291,9 +292,19 @@ body {
     border: 2px solid #03A17B;
     border-radius: 50%;
   }
+
   .section2 .icon-container svg {
     width: 70%;
     fill: #03A17B;
+  }
+
+  /* section3 - mobile picture */
+  .section3 {
+    min-height: 80vh;
+  }
+
+  .section3 img.mobile {
+    height: calc(100vh - 100px);
   }
 
 }
