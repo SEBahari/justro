@@ -218,91 +218,48 @@ body {
 @media screen and (min-width: 576px) {
   /* Header */
   .my-header {
-    height: 30rem;
-    background-color: #282c34;
-    color: #61dafb;
+    margin-top: 80px;
+    min-height: 18rem;
+    overflow: hidden;
+    /*background-color: #282c34;*/
+    /*color: #61dafb;*/
   }
 
   .my-nav {
-    height: 5rem;
-    background-color: #61dafb;
-    color: #282c34;
+    background-color: #e0e0e0;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .navbar-toggler {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
-  /* section1 - description */
-  .section1 {
-    min-height: 80vh;
-    background-color: #61dafb;
-    color: #282c34;
+  .navbar-brand {
+    z-index: 1
   }
 
-  /* section2 - icons */
-  .section2 {
-    height: 7rem;
-    background-color: #282c34;
-    color: #61dafb;
-  }
-
-  /* section3 - mobile picture */
-  .section3 {
-    height: 100vh;
-    background-color: #61dafb;
-    color: #282c34;
-  }
-
-  /* section4 - search hotels */
-  .section4 {
-    height: 20rem;
-    background-color: #282c34;
-    color: #61dafb;
-  }
-
-  /* section5 - app download */
-  .section5 {
-    height: 100vh;
-    background-color: #61dafb;
-    color: #282c34;
-  }
-
-  /* section6 - amadegi */
-  .section6 {
-    height: 20rem;
-    color: #61dafb;
-    background-color: #282c34;
-  }
-
-  /* section7 - ide */
-  .section7 {
-    height: 35rem;
-    color: #282c34;
-    background-color: #61dafb;
+  .logo-container {
     position: relative;
   }
 
-  .section7 .slider {
-    height: 15rem;
-    color: #61dafb;
-    background-color: #282c34;
+  .logo-bg {
+    width: 25rem;
     position: absolute;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
+    top: 0px;
+    right: -110px;
   }
 
-  /* section8 - email */
-  .section8 {
-    height: 20rem;
-    color: #61dafb;
-    background-color: #282c34;
+  .my-header .header-wave {
+    width: 17rem;
+    position: absolute;
+    top: 79px;
+    left: 0;
   }
-
-  /* footer */
-  .footer {
-    height: 15rem;
-    color: #282c34;
-    background-color: #61dafb;
-  }
-
 
 }
 
