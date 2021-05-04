@@ -176,19 +176,43 @@ body {
 
   /* section8 - email */
   .section8 {
-    height: 20rem;
-    color: #61dafb;
-    background-color: #282c34;
+    min-height: 20rem;
+    /*color: #61dafb;*/
+    background-color: #E2FFFA;
+  }
+  .section8 button{
+    background-color: #F1744A;
   }
 
   /* footer */
   .footer {
-    height: 15rem;
-    color: #282c34;
-    background-color: #61dafb;
+    /*min-height: 15rem;*/
+    color: white;
+    background-color: #005842;
   }
 
+  .footer .social{
+    width: 40px;
+    height: 40px;
+  }
+  .footer .social.social-twitter{
+    background-color: #00acee;
+  }
+  .footer .social.social-instagram{
+    background-color: #F70096;
+  }
+  .footer .social.social-telegram{
+    background-color: #08c;
+  }
 
+  .footer .email,
+  .footer .logo,
+  .footer .contact{
+    height: 50px;
+  }
+  .footer .contact{
+    text-align: right;
+  }
 }
 
 @media screen and (min-width: 576px) {
