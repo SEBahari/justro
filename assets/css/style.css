@@ -8,18 +8,15 @@ body {
   font-family: Shabnam, sans-serif;
 }
 
-.text-right {
-  text-align: right;
-}
-
 .text-teal {
   color: #03A17B;
 }
 
-.overflow-x-scroll{
+.overflow-x-scroll {
   overflow-x: scroll;
 }
-.overflow-y-hidden{
+
+.overflow-y-hidden {
   overflow-y: hidden;
 }
 
@@ -66,13 +63,15 @@ body {
     min-height: 36rem;
   }
 
-  .divider{
+  .divider {
     border: 2px solid #03A17B;
   }
-  .section1 .img{
+
+  .section1 .img {
     width: 20rem;
   }
-  .section1 .bg-wave{
+
+  .section1 .bg-wave {
     left: 0;
     bottom: 0;
   }
@@ -83,12 +82,14 @@ body {
     /*background-color: #282c34;*/
     /*color: #61dafb;*/
   }
+
   .section2 .icon-container {
     height: 50px;
     width: 50px;
     border: 2px solid #03A17B;
     border-radius: 50%;
   }
+
   .section2 .icon-container svg {
     /*height: 100%;*/
     width: 70%;
@@ -120,18 +121,21 @@ body {
     /*background-color: #61dafb;*/
     /*color: #282c34;*/
   }
-  .downloadSvg{
+
+  .downloadSvg {
     width: 35%;
   }
 
   .section5 input {
     outline: none;
   }
-  .section5 .sms-download{
+
+  .section5 .sms-download {
     background-color: #F1744A;
     font-size: 1.5rem;
   }
-  .section5 .direct-download{
+
+  .section5 .direct-download {
     background-color: #01CE9F;
     width: 170px;
     padding: 12px;
@@ -141,7 +145,8 @@ body {
   .section6 {
     /*height: 20rem;*/
   }
-  .section6 button{
+
+  .section6 button {
     background-color: #F1744A;
     color: white;
   }
@@ -164,12 +169,14 @@ body {
     overflow: auto;
     white-space: nowrap;
   }
-  .slider .slide{
+
+  .slider .slide {
     width: 150px;
     height: 110px;
     margin: 10px;
   }
-  .slider .slide img{
+
+  .slider .slide img {
     width: 100%;
     height: 100%;
   }
@@ -180,7 +187,8 @@ body {
     /*color: #61dafb;*/
     background-color: #E2FFFA;
   }
-  .section8 button{
+
+  .section8 button {
     background-color: #F1744A;
   }
 
@@ -191,26 +199,30 @@ body {
     background-color: #005842;
   }
 
-  .footer .social{
+  .footer .social {
     width: 40px;
     height: 40px;
   }
-  .footer .social.social-twitter{
+
+  .footer .social.social-twitter {
     background-color: #00acee;
   }
-  .footer .social.social-instagram{
+
+  .footer .social.social-instagram {
     background-color: #F70096;
   }
-  .footer .social.social-telegram{
+
+  .footer .social.social-telegram {
     background-color: #08c;
   }
 
   .footer .email,
   .footer .logo,
-  .footer .contact{
+  .footer .contact {
     height: 50px;
   }
-  .footer .contact{
+
+  .footer .contact {
     text-align: right;
   }
 }
@@ -446,9 +458,10 @@ body {
   }
 
   /******************************************************************************/
-  .mobile-icon-hotelSearch{
+  .mobile-icon-hotelSearch {
     height: 100vh;
   }
+
   /***********************************************/
   /* section2 - icons */
   .section2 {
