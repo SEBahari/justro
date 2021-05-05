@@ -312,6 +312,26 @@ body {
     min-height: 10rem;
   }
 
+  /* section5 - app download */
+  .section5 .downloadSvg {
+    width: 35%;
+  }
+
+  .section5 input {
+    outline: none;
+  }
+
+  .section5 .sms-download {
+    background-color: #F1744A;
+    font-size: 1.5rem;
+  }
+
+  .section5 .direct-download {
+    background-color: #01CE9F;
+    width: 170px;
+    padding: 12px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
