@@ -360,6 +360,16 @@ body {
     object-fit: cover;
   }
 
+  /* section8 - email */
+  .section8 {
+    min-height: 20rem;
+    background-color: #E2FFFA;
+  }
+
+  .section8 button {
+    background-color: #F1744A;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
