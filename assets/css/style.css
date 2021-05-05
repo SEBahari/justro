@@ -9,7 +9,7 @@ body {
 }
 
 .text-right {
-  text-align: right !important
+  text-align: right;
 }
 
 .text-teal {
