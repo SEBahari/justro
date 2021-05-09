@@ -497,5 +497,28 @@ body {
     height: 100vh;
   }
 
+  /***********************************************/
+  /* section2 - icons */
+  .section2 {
+    height: auto;
+    position: relative;
+    z-index: 10;
+  }
+
+  .section2 .icons-container {
+    overflow: hidden;
+    z-index: 30;
+  }
+
+  .section2 .vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    border: 1px solid #03A17B;
+    z-index: 20;
+  }
+
   /******************************************************************************/
 }
