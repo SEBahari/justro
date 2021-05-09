@@ -530,5 +530,15 @@ body {
     height: 100vh;
   }
 
+  /***********************************************/
+  /* section4 - search hotels */
+  .section4 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+  }
+
   /******************************************************************************/
 }
