@@ -470,4 +470,25 @@ body {
     top: 0;
     left: 0;
   }
+
+  /* section1 - description */
+  .section1 {
+    min-height: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .section1 .text {
+    width: 40%;
+    float: right;
+    text-align: right;
+  }
+
+  .section1 .text .divider {
+    margin-left: auto;
+    width: 40% !important;
+  }
+
+  .section1 .img {
+    width: 40%;
+  }
 }
