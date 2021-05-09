@@ -541,4 +541,54 @@ body {
   }
 
   /******************************************************************************/
+
+  /* section5 - app download */
+  .section5 .title{
+    order: -2;
+  }
+  .section5 .text{
+    order: -1;
+  }
+  .section5 .downloadSvg {
+    width: 15%;
+  }
+  .section5 .input{
+    display: inline-block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section5 .sms-download{
+    display: inline-block;
+    width: 15%;
+  }
+
+  /* section6 - amadegi */
+  .section6 {
+    min-height: 50vh;
+  }
+
+  /* section7 - ide */
+  .section7 {
+    min-height: 23rem;
+    position: relative;
+  }
+
+  .section7 .slider {
+    height: 13rem;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  /* section8 - email */
+  .section8 {
+    min-height: 10rem;
+  }
+
+  /* footer */
+  .footer {
+    min-height: 15rem;
+  }
 }
