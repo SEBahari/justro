@@ -7,6 +7,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.tmp.css">
   <title>Justro</title>
 </head>
 <body>
@@ -31,31 +32,41 @@
                 clip-rule="evenodd"/>
         </svg>
       </button>
-      <div class="collapse navbar-collapse border-top border-secondary" id="navbarSupportedContent">
-        <ul class="navbar-nav h4 fw-bold ms-auto me-3 mb-2 mt-4 mb-lg-0 text-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ایده‌ها</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ویژگی‌ها</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">درباره ما</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">همکاری با ما</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">تماس با ما</a>
-          </li>
-        </ul>
+      <div class="d-lg-flex container-lg justify-content-lg-between align-items-lg-center d-block">
+        <button class="rounded-pill d-none d-lg-inline-block py-1 px-3 py-lg-2 px-lg-5 text-white border-1 download">دانلود</button>
+        <div class="collapse navbar-collapse border-top border-secondary" id="navbarSupportedContent">
+          <ul class="navbar-nav h4 fw-bold ms-auto me-3 mb-2 mt-4 m-lg-auto text-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ایده‌ها</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ویژگی‌ها</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">همکاری با ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تماس با ما</a>
+            </li>
+          </ul>
+        </div>
+        <div class="logo-container d-lg-flex justify-content-lg-end d-none">
+          <a class="navbar-brand d-flex align-items-center text-teal" href="#">
+            <span>جاسترو</span>
+            <img class="d-inline-block align-text-top" src="assets/img/camel.jpg" alt="" width="80">
+          </a>
+          <img class="logo-bg" src="assets/img/009_logo_Bg.svg" alt="">
+        </div>
       </div>
     </div>
   </nav>
-  <div class="logo-container d-flex justify-content-end p-5">
+  <div class="logo-container d-flex justify-content-end d-lg-none p-5">
     <a class="navbar-brand d-flex align-items-center text-teal" href="#">
       <span>جاسترو</span>
       <img class="d-inline-block align-text-top" src="assets/img/camel.jpg" alt="" width="80">
